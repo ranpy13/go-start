@@ -1,6 +1,6 @@
 # create-go-app
 
-This is a small CLI tool I wrote for myself to scaffold new Go projects. It’s not a framework or anything fancy — just a simple way to avoid writing the same boilerplate every time I start a new project. Just starting to learn and was trying to fish around for something like `cargo new insert-your-project-name-here` or maybe `create-react-app` (that is a good one) for go. Some were overkill, some were not working well, so I did my own. Mostly for myself. But here you go!
+This is a small CLI tool I wrote for myself _(read: chatgpt for me)_ to scaffold new Go projects. It’s not a framework or anything fancy — just a simple way to avoid writing the same boilerplate every time I start a new project. Just starting to learn and was trying to fish around for something like `cargo new insert-your-project-name-here` or maybe `create-react-app` (that is a good one) for go. Some were overkill, some were not working well, so I did my own. Mostly for myself. But here you go!
 
 It creates a basic project structure with things like `.env`, `.gitignore`, `src/`, `utils/`, a simple logger, and initializes a Go module and a git repo.
 
