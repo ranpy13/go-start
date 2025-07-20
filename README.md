@@ -58,7 +58,7 @@ You’ll see some log messages to confirm everything's wired up.
 
 ### `.env` and `.env.example`
 
-You can store environment variables here. Not wired to anything automatically — you can plug in something like `github.com/joho/godotenv` if you need it.
+You can store environment variables here. Not wired to anything automatically — you can plug in something like `github.com/joho/godotenv` if you need it. Now that I think about it, maybe that should have been included. Maybe, someday. todo: ??
 
 ### `logger/`
 
