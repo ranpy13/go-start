@@ -1,0 +1,27 @@
+package logger
+
+import (
+    "log"
+)
+
+type Logger struct {
+    debugEnabled bool
+}
+
+func New() *Logger {
+    return &Logger{debugEnabled: true}
+}
+
+func (l *Logger) Info(msg string) {
+    log.Printf("[INFO] %s", msg)
+}
+
+func (l *Logger) Debug(msg string) {
+    if l.debugEnabled {
+        log.Printf("[DEBUG] %s", msg)
+    }
+}
+
+func (l *Logger) Error(msg string) {
+    log.Printf("[ERROR] %s", msg)
+}

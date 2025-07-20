@@ -1,0 +1,12 @@
+package main
+
+import (
+    "{{.AppName}}/logger"
+)
+
+func main() {
+    log := logger.New()
+    log.Info("App started")
+    log.Debug("This is a debug message")
+    log.Error("Something went wrong")
+}
