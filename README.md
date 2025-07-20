@@ -4,7 +4,7 @@ This is a small CLI tool I wrote for myself to scaffold new Go projects. It’s 
 
 It creates a basic project structure with things like `.env`, `.gitignore`, `src/`, `utils/`, a simple logger, and initializes a Go module and a git repo.
 
-Honestly, it's minimal on purpose. I didn’t want something like `go-zero` or `buffalo` — just something that helps me get started quickly and keeps things clean.
+Honestly, it's minimal on purpose. I didn’t want something like [`go-zero`](https://github.com/zeromicro/go-zero) or [`buffalo`](https://github.com/gobuffalo/buffalo) — just something that helps me get started quickly and keeps things clean.
 
 ---
 
@@ -94,8 +94,9 @@ No real roadmap. If I find myself doing more things manually again (adding a rou
 * `--http`
 * `--docker`
 * `--makefile`
+* tests/ - sure thing, on my radar
 
-But only if I actually need them.
+But only if I actually need them. _(read: only if I am not feeling lazy)_
 
 ---
 
