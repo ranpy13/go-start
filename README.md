@@ -72,6 +72,9 @@ Just a placeholder for helper functions. Nothing magical.
 
 Entry point. Right now it just prints a few logger lines. Add your logic here.
 
+Hmmm... you know coming from spring initializer and stuff, and from good programmign practices and TDD and DDD and what not, maybe I should add tests as well. But test what, in this demo?
+todo: add test - take inspo from spring initializer, sample code, sample test
+
 ---
 
 ## Why I Made This
